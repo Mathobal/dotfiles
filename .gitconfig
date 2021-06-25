@@ -1,6 +1,6 @@
 [user]
-  name = Jeff Geerling
-  email = geerlingguy@mac.com
+  name = Ben Williams
+  email = ben@redaxe.co.uk
 [core]
   editor = vi
   excludesfile = ~/.gitignore
@@ -11,17 +11,9 @@
   interactive = auto
   status = auto
 [init]
-  defaultBranch = master
-[web]
-  browser = google-chrome
+  defaultBranch = main
 [credential]
   helper = osxkeychain
-[push]
-  default = simple
-[merge]
-  tool = kdiff3
-[difftool]
-  prompt = false
 [alias]
   c = commit
   ca = commit -a
@@ -30,5 +22,3 @@
   d = diff
   dc = diff --cached
   l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
-[pull]
-	rebase = true
